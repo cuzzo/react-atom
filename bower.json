@@ -1,0 +1,27 @@
+{
+  "name": "react-atom",
+  "version": "0.0.1",
+  "homepage": "https://github.com/cuzzo/react-atom",
+  "authors": [
+    "Cuzzo Yahn <yahn007@outlook.com>"
+  ],
+  "description": "React ATOM CSS transformer.",
+  "main": "main.js",
+  "keywords": [
+    "react",
+    "BEM",
+    "ATOM"
+  ],
+  "license": "BSD",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "dist"
+  ],
+  "devDependencies": {
+    "react": "~0.10.0",
+    "react-bem": "~0.0.1"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "react-atom",
+  "description": "React ATOM CSS transformer.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/cuzzo/react-atom",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "bower": "~1.3.2",
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.7",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-react": "~0.9.0",
+    "grunt-atom-css": "~0.0.1"
+  },
+  "scripts": {
+    "postinstall": "bower install; grunt dist"
+  },
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "http://opensource.org/licences/BSD-2-Clause"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cuzzo/react-atom.git"
+  }
+}

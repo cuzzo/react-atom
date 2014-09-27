@@ -1,0 +1,27 @@
+widget {
+  __section {
+    painted-blue;
+    text-left;
+  }
+
+  __h3 {
+    typography-loose;
+  }
+
+  __input {
+    rounded-default;
+    font-small;
+
+    --submit {
+      painted-light-grey;
+    }
+
+    --submit:hover {
+      painted-light-yellow;
+    }
+  }
+}
+
+widget2 {
+  painted-red;
+}
