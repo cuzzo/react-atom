@@ -1,10 +1,10 @@
-# React BEM
+# React ATOM
 
 BEM class names are systematic. So why write them yourself?
 
 # Usage
 
-React BEM automatically generates BEM style classes on React components... So you don't have to.
+React [ATOM](https://github.com/cuzzo/atom-css "ATOM CSS") automatically generates BEM style classes on React components... So you don't have to. Then it atomizes them, so they're really fast/performant.
 
 # Example
 
@@ -49,6 +49,12 @@ Translates to:
 ```
 
 You can see it live, how it attaches the BEM classes, [here](http://cuzzo.github.io/react-bem/example/ "React autogenerate BEM class names example").
+
+# Resources
+
+* [ATOM](https://github.com/cuzzo/atom-css "ATOM CSS") - The ATOM CSS specification.
+* [BEM](http://www.integralist.co.uk/posts/maintainable-css-with-bem/ "BEM Example/Explanation") - BEM explained.
+* [React BEM](https://github.com/cuzzo/react-bem "React BEM Automatic Class Generation") - Automatic BEM class generation for React Components.
 
 # License
 
