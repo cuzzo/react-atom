@@ -11,7 +11,9 @@ widget {
   __input {
     rounded-default;
     font-small;
+  }
 
+  __button {
     --submit {
       painted-light-grey;
     }

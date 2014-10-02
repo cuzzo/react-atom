@@ -5,9 +5,7 @@ var Test = React.createClass({
   bem_blocks: ["widget"],
 
   bem_translate_class: function(bem_classes) {
-    var resp = this.atomize(bem_classes);
-    console.log("TRANS", bem_classes, resp);
-    return resp;
+    return this.atomize(bem_classes);
   },
 
   bem_render: function() {

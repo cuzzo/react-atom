@@ -11,17 +11,24 @@ React BEM automatically generates BEM style classes on React components... So yo
 JSX Component:
 
 ```javascript
-var Header = React.createClass({
-  mixins: [ReactBEM],
+var Test = React.createClass({
+  mixins: [ReactBEM, ReactATOM],
 
   bem_blocks: ["widget"],
-  bem_block_modifiers: ["christmas"],
+
+  bem_translate_class: function(bem_classes) {
+    return this.atomize(bem_classes);
+  },
 
   bem_render: function() {
     return (
-      <header className="no-overwrite">
-        <h1><span modifiers="blinking">HEADER:</span> This is the Header</h1>
-      </header>
+      <section class="no-overwrite">
+        <h3 role="title">Price Form</h3>
+        <form>
+          <input type="text" name="amount" modifiers="amount" />
+          <input type="submit" name="submit" modifiers="submit" role="button" />
+        </form>
+      </section>
     );
   }
 });
@@ -30,14 +37,15 @@ var Header = React.createClass({
 Translates to:
 
 ```html
-<header class="no-overwrite widget--christmas__header widget__header" data-reactid=".0">
-    <h1 class="widget--christmas__h1 widget__h1" data-reactid=".0.0">
-        <span class="widget--christmas__span--blinking widget--christmas__span widget__span--blinking widget__span" data-reactid=".0.0.0"></span>
-        <span data-reactid=".0.0.1">
-             This is the Header
-        </span>
-    </h1>
-</header>
+<section class="painted-blue text-left" data-reactid=".0">
+    <h3 class="typography-loose" data-reactid=".0.0" role="title">
+        Price Form
+    </h3>
+    <form data-reactid=".0.1">
+        <input class="rounded-default font-small" type="text" data-reactid=".0.1.0" name="amount"></input>
+        <input class="painted-light-grey widget__button--submit" type="submit" data-reactid=".0.1.1" role="button" name="submit"></input>
+    </form>
+</section>
 ```
 
 You can see it live, how it attaches the BEM classes, [here](http://cuzzo.github.io/react-bem/example/ "React autogenerate BEM class names example").
