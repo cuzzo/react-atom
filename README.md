@@ -1,6 +1,6 @@
 # React ATOM
 
-BEM class names are systematic. So why write them yourself?
+[BEM](https://bem.info/method/ "BEM Specification") class names are systematic. So why write them yourself?
 
 # Usage
 
