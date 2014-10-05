@@ -20,7 +20,7 @@
     "test",
     "dist",
     "example",
-    "Gruntfile"
+    "Gruntfile.js"
   ],
   "devDependencies": {
     "react": "~0.10.0",
