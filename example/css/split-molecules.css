@@ -1,0 +1,20 @@
+.painted-light-grey {
+  background-color: #eeeeee; }
+
+.painted-light-yellow, .widget__button--submit:hover {
+  background-color: #ffffee; }
+
+.painted-blue {
+  background-color: lime; }
+
+.rounded-default {
+  -webkit-border-radius: 0.125em;
+  -moz-border-radius: 0.125em;
+  -ms-border-radius: 0.125em;
+  border-radius: 0.125em; }
+
+.font-small {
+  font-size: 0.9em; }
+
+.typography-loose {
+  line-height: 1.6; }

@@ -1,0 +1,2 @@
+window.MOLECULES = {"widget__section":["painted-blue","text-left"],"widget__title":["typography-loose"],"widget__input":["rounded-default","font-small"],"widget__button--submit":["painted-light-grey"],"widget__button--submit:hover":["painted-light-yellow"],"widget2":["painted-red"]}
+window.SPLIT_MOLECULES = {"widget__button--submit":1}
