@@ -52,7 +52,7 @@ You can see it live, how it attaches the BEM classes and then converts those to 
 
 # Resources
 
-* [ATOM](https://github.com/cuzzo/atom-css "ATOM CSS") - The ATOM CSS specification.
+* [ATOM](https://github.com/cuzzo/atom "ATOM CSS") - The ATOM CSS specification.
 * [BEM](http://www.integralist.co.uk/posts/maintainable-css-with-bem/ "BEM Example/Explanation") - BEM explained.
 * [React BEM](https://github.com/cuzzo/react-bem "React BEM Automatic Class Generation") - Automatic BEM class generation for React Components.
 
