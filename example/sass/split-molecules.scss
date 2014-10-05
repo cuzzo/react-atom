@@ -1,5 +1,0 @@
-@import "_variables";
-@import "_mixins";
-@import "atoms";
-
-.widget__button--submit:hover { @extend .painted-light-yellow; }

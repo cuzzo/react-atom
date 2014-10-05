@@ -30,7 +30,8 @@ module.exports = function(grunt) {
       options: {
         molecule_path: "example",
         molecular_rules_path: "example/molecular-rules.js",
-        split_molecules_path: "example/sass/split-molecules.scss"
+        split_molecules_path: "example/sass/split-molecules.scss",
+        sass_import_path: "example/sass/_imports.scss"
       }
     },
 
